@@ -1,39 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby 2.3.6
+rails 5.1.5
+BootStrap 4.0.0
 
-Things you may want to cover:
+Install instructions - html only
+https://www.youtube.com/watch?v=R52AsglN0DE
 
-* Ruby version
-* 2.3.6
+Manual for components
+https://getbootstrap.com/docs/4.0/getting-started/introduction/
 
-* System dependencies
-* rails 5.1.5
+or version 3.3 is still relevant
 
-* Configuration
-* Standard BootstrapCDN config
-* 
-* Install
-* https://www.youtube.com/watch?v=R52AsglN0DE
-* 
-* Manual for components
-* https://getbootstrap.com/docs/4.0/components/alerts/
-
-* Database creation
-* Sqlite, jquery
-
-* Database initialization
-* None so far
-
-* How to run the test suite
-* Ask Joe. I am to lazy to write the steps here for AWS
-
-* Services (job queues, cache servers, search engines, etc.)
-* None
-
-* Deployment instructions
-* Ask Joe. I am to lazy to write the steps here for AWS.
-* I literally copied and pasted that last line
-
-* ...
+https://getbootstrap.com/docs/3.3/components/
