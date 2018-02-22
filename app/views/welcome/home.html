@@ -1,20 +1,79 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset='utf-8'>
+        <! MEta file to run in mobile browsers>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>BootStrap the CDN way</title>
+        
         <! CSS and stuff from boot strap link>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         
-        
-        
     </head>
+    
+    <style type="text/css">
+    /* Some custom styles to beautify this example */
+    .demo-content{
+        padding: 15px;
+        font-size: 18px;
+        min-height: 300px;
+        background: #dbdfe5;
+        margin-bottom: 10px;
+    }
+    .demo-content.bg-alt{
+        background: #abb1b8;
+    }
+    /* Some custom media query to make 
+       this example even better */
+    @media screen and (max-width: 991px){
+        .flexible{
+            min-height: 150px;
+        }
+    }
+</style>
     
     <body>
         <! Insert code v >
+
         
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-2">
+                    <div class="demo-content">The Dark Knight</div>
+                </div>
+                <div class="col-sm-9 col-md-8">
+                    <div class="demo-content bg-alt">The Grayish Knight</div>
+                </div>
+                <div class="col-sm-12 col-md-2">
+                    <div class="demo-content flexible">The Light Knght</div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-2">
+                    <div class="demo-content">The Dark 2 Knight</div>
+                </div>
+                <div class="col-sm-9 col-md-6">
+                    <div class="demo-content bg-alt">The Grayish 2 Knight</div>
+                </div>
+                <div class="col-sm-12 col-md-2">
+                    <div class="demo-content flexible">The Light 2 Knght</div>
+                </div>
+                <div class="col-sm-12 col-md-2">
+                    <div class="demo-content flexible">The Light 3 Knght</div>
+                </div>
+            </div>
+        </div>
+
+
+                
+        <! Insert code ^ >
         
+        <! Insert code ^ >
         
         <! Insert code ^ >
         
